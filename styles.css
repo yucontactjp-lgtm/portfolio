@@ -258,7 +258,7 @@ ul { list-style: none; }
 .who small { color: var(--muted); font-size: 12.5px; }
 
 /* ===== 導入の流れ ===== */
-.flow-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; counter-reset: step; }
+.flow-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; list-style: none; }
 .flow-step {
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 30px 24px; position: relative;
